@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFD4CA;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #FF3864;
+    min-height: 60vh;
+    width: 80vh;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+input {
+    text-align: center;
+    height: 30px;
+    border: 2px solid lightgray;
+}
+
+form {
+    margin-top: 1.15rem;
+    margin-bottom: 1rem;
+}
+
+form input,
+select,
+button {
+    border: none;
+    width: 100%;
+    margin-top: 0.5rem;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+img {
+    max-width: 4rem;
+}
+
+.country {
+    width: auto;
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    padding: 1rem;
+    align-items: center;
+}
+
+i {
+    margin: 1rem;
+    font-size: 25px;
+}
+
+.from,
+.to {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 9rem;
+    border: 2px solid lightgray;
+    border-radius: 0.5rem;
+}
+
+select {
+    background-color: #FF3864;
+    font-size: 1rem;
+    width: auto;
+}
+
+
+.finalmsg {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+button {
+    margin-top: 1rem;
+    height: 3rem;
+    background-color: #6B2D5C;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+i:hover {
+    cursor: pointer;
+}
